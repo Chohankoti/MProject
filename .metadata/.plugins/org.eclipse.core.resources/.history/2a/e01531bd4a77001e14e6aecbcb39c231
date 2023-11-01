@@ -1,0 +1,5 @@
+package com.HotelManagement.User.service;
+
+public class UserService {
+
+}

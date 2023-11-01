@@ -1,0 +1,5 @@
+package com.HotelManagement.User.dto;
+
+public class UsersRequest {
+
+}

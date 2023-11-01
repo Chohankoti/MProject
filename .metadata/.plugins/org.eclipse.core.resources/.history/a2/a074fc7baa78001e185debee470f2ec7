@@ -1,0 +1,9 @@
+package com.example.HotelBackEnd.Repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.HotelBackEnd.Entity.Users;
+
+public interface UserRepo extends JpaRepository<Users, Integer> {
+  
+}
