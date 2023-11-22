@@ -1,0 +1,129 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.btn{
+  margin: 2px;
+}
+.divbtn{
+  margin-bottom: 5px;
+}
+.errmsg{
+  color: red;
+}
+.header{
+  width:100%;
+  background-color:#FF1493;
+  color: #fff;
+  padding:1%;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+  padding: 2px;
+}
+
+app-check{
+  height: 20px;
+  width: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* OwnerHome.css */
+
+/* Custom card styles */
+.custom-card {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Custom description styles */
+.custom-description {
+  font-size: 18px;
+  color: #333;
+}
+
+
+.custom-heading {
+  font-size: 24px; /* Adjust font size as needed */
+  color: #333; /* Text color */
+  /* Add more custom styles as needed */
+}
+
+.custom-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; /* Customize the color as needed */
+}
+
+.vertical-line {
+  border-left: 1px solid black;
+  height: 100%;
+  margin: 0; /* Remove margin to avoid spacing */
+  padding: 0; /* Remove padding to avoid spacing */
+}
+
+.star-rating {
+  text-align: center;
+  margin: 20px;
+}
+
+.star {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 1;
+  color: #ccc; /* Default star color */
+}
+
+.star input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.star input[type="radio"]:checked ~ .star {
+  color: #ffc107; /* Selected star color */
+}
+
+.bg-pink {
+  background-color: #FF1493;
+}
+

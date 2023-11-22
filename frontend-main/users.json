@@ -1,0 +1,337 @@
+{
+  "user": [
+    {
+      "id": "chohan",
+      "firstname": "KOTI",
+      "lastname": "CHOHAN",
+      "email": "chohan@gmail.com",
+      "phone": "7337044983",
+      "gender": "male",
+      "dob": "2023-08-30",
+      "password": "chohan",
+      "role": "admin"
+    },
+    {
+      "id": "lavanya",
+      "firstname": "koti",
+      "lastname": "lavanya",
+      "email": "lavanya@gmail.com",
+      "phone": "0123456789",
+      "gender": "Female",
+      "dob": "2023-08-30",
+      "password": "KOTIlavanya@1",
+      "role": "owner"
+    },
+    {
+      "firstname": "pothunuru",
+      "lastname": "mani",
+      "password": "manikantaCUSTOMER@1",
+      "email": "manikanta@gmail.com",
+      "phone": "0123456789",
+      "gender": "male",
+      "dob": "2023-08-31",
+      "role": "customer",
+      "id": "manikanta"
+    },
+    {
+      "id": "kowshik",
+      "firstname": "potunuru",
+      "lastname": "kowshik",
+      "email": "kowshik@gmail.com",
+      "phone": "0123456789",
+      "gender": "male",
+      "dob": "2023-09-04",
+      "password": "kowshikCUSTOMER@1",
+      "role": "customer"
+    },
+    {
+      "firstname": "hotel",
+      "lastname": "owner10",
+      "password": "owner10HOTEL@1",
+      "email": "owner@gmail.com",
+      "phone": "0123456789",
+      "gender": "male",
+      "dob": "2023-09-15",
+      "role": "owner",
+      "id": "owner10"
+    },
+    {
+      "firstname": "nallamothu",
+      "lastname": "navya",
+      "id": "navya",
+      "password": "navyaCUSTOMER@1",
+      "email": "navya@gmail.com",
+      "phone": "0123456789",
+      "gender": "Female",
+      "dob": "2023-09-15",
+      "role": "customer"
+    },
+    {
+      "firstname": "hotel",
+      "lastname": "owner1",
+      "id": "owner1",
+      "password": "owner1OWNER@1",
+      "email": "owner1@gmail.com",
+      "phone": "0123456789",
+      "gender": "male",
+      "dob": "2023-09-15",
+      "role": "owner"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 11,
+      "owner": "lavanya",
+      "facility": "Normal",
+      "name": "sweety",
+      "roomimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    },
+    {
+      "id": 13,
+      "owner": "lavanya",
+      "facility": "Regular",
+      "name": "obbulaneni",
+      "roomimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    },
+    {
+      "id": 14,
+      "owner": "lavanya",
+      "facility": "dulex",
+      "name": "sweety",
+      "roomimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    },
+    {
+      "id": 15,
+      "owner": "lavanya",
+      "facility": "Regular",
+      "name": "sweety",
+      "roomimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    }
+  ],
+  "hotel": [
+    {
+      "id": 15,
+      "owner": "lavanya",
+      "name": "sweety",
+      "location": "TS",
+      "status": true,
+      "desc": "Luxury oasis with panoramic views, world-class dining, and spa indulgence.",
+      "hotelimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    },
+    {
+      "id": 11,
+      "owner": "lavanya",
+      "name": "hotel2",
+      "location": "TS",
+      "status": false,
+      "desc": "Impeccable service, opulent suites, and breathtaking waterfront surroundings await you.",
+      "hotelimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    },
+    {
+      "id": 16,
+      "owner": "lavanya",
+      "name": "obbulaneni",
+      "location": "AP",
+      "status": true,
+      "desc": "Artistic decor, Michelin-star dining, and lavish suites for an unforgettable stay.",
+      "hotelimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    },
+    {
+      "id": 17,
+      "owner": "lavanya",
+      "name": "hotel1",
+      "location": "TS",
+      "status": false,
+      "desc": "Unmatched opulence, rooftop pool, and gourmet cuisine in a tranquil setting.",
+      "hotelimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    },
+    {
+      "id": 26,
+      "owner": "lavanya",
+      "name": "OYO1",
+      "location": "MP",
+      "status": true,
+      "desc": "Luxury oasis with panoramic views, world-class dining, and spa indulgence.",
+      "hotelimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    },
+    {
+      "id": 27,
+      "owner": "owner10",
+      "name": "OYO2",
+      "location": "AP",
+      "desc": "Elegance and sophistication meet in the heart of the city's cultural hub.",
+      "status": true,
+      "hotelimage": "https://www.holidify.com/images/cmsuploads/compressed/22931657_20220223172141.jpg"
+    }
+  ],
+  "facility": [
+    {
+      "id": "Regular",
+      "desc": "Offers essential amenities and services for a comfortable stay.",
+      "price": 300
+    },
+    {
+      "id": "dulex",
+      "desc": "Provides luxurious accommodations and top-notch services.",
+      "price": 1000
+    },
+    {
+      "id": "Normal",
+      "desc": "Includes air conditioning to enhance your comfort during your stay.",
+      "price": 500
+    }
+  ],
+  "feedback": [
+    {
+      "user": "navya",
+      "owner": "mani",
+      "hotelName": "obbulaneni",
+      "rating": 4,
+      "feedback": "nice",
+      "id": 12
+    },
+    {
+      "user": "navya",
+      "owner": "kowshik",
+      "hotelName": "sweety",
+      "rating": 5,
+      "feedback": "good",
+      "id": 13
+    },
+    {
+      "user": "navya",
+      "owner": "kowshik",
+      "hotelName": "sweety",
+      "rating": 4,
+      "feedback": "ok",
+      "id": 14
+    },
+    {
+      "user": "navya",
+      "owner": "kowshik",
+      "hotelName": "obbulaneni",
+      "rating": 4,
+      "feedback": "rwer",
+      "id": 15
+    }
+  ],
+  "sendmessage": [
+    {
+      "id": 11,
+      "recipient": "owner1",
+      "message": "NEED TO IMPROVE",
+      "date": "2023-09-15"
+    },
+    {
+      "id": 15,
+      "recipient": "lavanya",
+      "message": "need to improve ",
+      "date": "2023-09-18"
+    },
+    {
+      "id": 21,
+      "recipient": "lavanya",
+      "message": "need to leave fear",
+      "date": "2023-09-17"
+    }
+  ],
+  "payment": [],
+  "booking": [
+    {
+      "user": "navya",
+      "room": 14,
+      "checkin": "2023-11-23",
+      "checkout": "2023-11-28",
+      "noofdays": 8,
+      "owner": "lavanya",
+      "hotelName": "sweety",
+      "facility": "dulex",
+      "price": 1000,
+      "id": 11
+    },
+    {
+      "user": "navya",
+      "room": 14,
+      "checkin": "2023-11-20",
+      "checkout": "2023-11-21",
+      "noofdays": 1,
+      "owner": "lavanya",
+      "hotelName": "sweety",
+      "facility": "dulex",
+      "price": 1000,
+      "id": 12
+    },
+    {
+      "user": "navya",
+      "room": 13,
+      "checkin": "2023-11-21",
+      "checkout": "2023-11-23",
+      "noofdays": 2,
+      "owner": "lavanya",
+      "hotelName": "obbulaneni",
+      "facility": "Regular",
+      "price": 300,
+      "id": 15
+    },
+    {
+      "user": "navya",
+      "room": 13,
+      "checkin": "2023-11-21",
+      "checkout": "2023-11-23",
+      "noofdays": 0,
+      "owner": "lavanya",
+      "hotelName": "obbulaneni",
+      "facility": "Regular",
+      "price": 300,
+      "id": 1
+    },
+    {
+      "user": "navya",
+      "room": 24,
+      "checkin": "2023-11-1",
+      "checkout": "2023-11-28",
+      "noofdays": 8,
+      "owner": "lavanya",
+      "hotelName": "sweety",
+      "facility": "dulex",
+      "price": 1000,
+      "id": 21
+    },
+    {
+      "user": "navya",
+      "room": 14,
+      "checkin": "2023-11-28",
+      "checkout": "2023-11-21",
+      "noofdays": 1,
+      "owner": "lavanya",
+      "hotelName": "sweety",
+      "facility": "dulex",
+      "price": 1000,
+      "id": 22
+    },
+    {
+      "user": "navya",
+      "room": 13,
+      "checkin": "2023-11-30",
+      "checkout": "2023-11-23",
+      "noofdays": 2,
+      "owner": "lavanya",
+      "hotelName": "obbulaneni",
+      "facility": "Regular",
+      "price": 300,
+      "id": 25
+    },
+    {
+      "user": "navya",
+      "room": 13,
+      "checkin": "2023-11-21",
+      "checkout": "2023-11-23",
+      "noofdays": 0,
+      "owner": "lavanya",
+      "hotelName": "obbulaneni",
+      "facility": "Regular",
+      "price": 300,
+      "id": 27
+    }
+  ]
+}
