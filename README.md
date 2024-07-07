@@ -44,5 +44,16 @@ The backend is composed of the following microservices:
 - **Real-World Experience:** Provides hands-on experience with microservices, similar to real-world enterprise applications.
 
 
-## Live Image
+## Live Image Backend
 ![image](https://github.com/Chohankoti/Microservices/assets/110148983/f1c224a8-83bf-4652-adf0-734ce9b47c28)
+
+## Live Image Frontend
+
+###Admin Panel :
+
+![image](https://github.com/Chohankoti/HM/assets/110148983/df508035-d926-4046-82a4-18ca6def5ac3)
+
+
+###Owner Panel :
+
+![image](https://github.com/Chohankoti/HM/assets/110148983/461126b7-3a96-472b-b0e1-43ea1863fe18)
