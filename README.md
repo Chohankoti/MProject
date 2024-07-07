@@ -49,11 +49,11 @@ The backend is composed of the following microservices:
 
 ## Live Image Frontend
 
-###Admin Panel :
+### Admin Panel
 
 ![image](https://github.com/Chohankoti/HM/assets/110148983/df508035-d926-4046-82a4-18ca6def5ac3)
 
 
-###Owner Panel :
+### Owner Panel
 
 ![image](https://github.com/Chohankoti/HM/assets/110148983/461126b7-3a96-472b-b0e1-43ea1863fe18)
